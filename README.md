@@ -1,7 +1,7 @@
-#���
+#简介
 
-�ṷKRC��ʸ�ʽ�ļ�תLRC��ʸ�ʽ�ļ�
+酷狗KRC歌词格式文件转LRC歌词格式文件
 
-#ʹ��
+#使用
 
-    krc2lrc test/�����������̫����.krc
+    $ krc2lrc test/是萝莉控真是太好了.krc
