@@ -1,0 +1,21 @@
+﻿  zutil.c
+  uncompr.c
+  trees.c
+  inftrees.c
+  inflate.c
+  inffast.c
+  infback.c
+  gzwrite.c
+  gzread.c
+  gzlib.c
+  gzclose.c
+  deflate.c
+  crc32.c
+  compress.c
+  adler32.c
+  main.c
+d:\projects\krc2lrc\main.c(165): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+  Generating Code...
+  krc2lrc.vcxproj -> D:\projects\krc2lrc\vs2013\Debug\krc2lrc.exe
+  krc2lrc.vcxproj -> D:\projects\krc2lrc\vs2013\Debug\krc2lrc.pdb (Full PDB)
