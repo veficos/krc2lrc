@@ -48,7 +48,7 @@ def select_files_command():
     
     try:
         for file in names:
-            saveto = os.path.join(savedir, os.path.basename(file).replace('krc', 'lrc') if savedir else file.replace('krc', 'lrc'))
+            saveto = os.path.join(savedir, os.path.basename(file).replace('.krc', '.lrc') if savedir else file.replace('.krc', '.lrc'))
             krc2lrc(file, saveto)
             label = ttk.Label(root, text ="%s转换成功" % os.path.basename(file))
             label.pack(side=BOTTOM)
